@@ -1,0 +1,30 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.whiteboard</groupId>
+    <artifactId>sample</artifactId>
+    <version>demo</version>
+    <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-core</artifactId>
+                <version>RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>RELEASE</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <sourceDirectory>java/code</sourceDirectory>
+        <resources>
+            <resource>
+            <directory>java/data</directory>
+            </resource>
+        </resources>
+    </build>
+    <properties>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+    </properties>
+</project>
